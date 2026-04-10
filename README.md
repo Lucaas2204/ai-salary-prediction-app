@@ -1,0 +1,1 @@
+This app uses a dataset of 2026 AI job trends to predict salaries using [insert your model, e.g., Linear Regression or Random Forest]. It helps data professionals negotiate better salaries by understanding market demand.
