@@ -49,6 +49,13 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+@st.cache_resource
+def get_trained_model():
+    # Put your df loading, preprocessor, and model.fit(X, y) code here
+    return model, df
+
+model, df = get_trained_model()
+
 
 # -------------------------------
 # Load Data
